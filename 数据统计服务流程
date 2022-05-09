@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T07:36:25.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="18.0.2" etag="tvIrg_4uQ8gFS0IwGjpX" type="github"><diagram id="_kSRV1PcQJApAzhUe7G6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T07:39:48.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="sPb6nrhLVtllAkrUb2xk" version="18.0.2" type="github">
+  <diagram id="_kSRV1PcQJApAzhUe7G6" name="Page-1">
+    <mxGraphModel dx="965" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vkHL2uqCstljnKFuv4kY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vkHL2uqCstljnKFuv4kY-1" target="vkHL2uqCstljnKFuv4kY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="68" width="106" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vkHL2uqCstljnKFuv4kY-2" target="vkHL2uqCstljnKFuv4kY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-2" value="管理员用户访问前端页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vkHL2uqCstljnKFuv4kY-4" target="vkHL2uqCstljnKFuv4kY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-4" value="选择需要查看的统计数据和日期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="263" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vkHL2uqCstljnKFuv4kY-6" target="vkHL2uqCstljnKFuv4kY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-6" value="从数据库中查询出对应的数据返回给前端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="373" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vkHL2uqCstljnKFuv4kY-7" target="vkHL2uqCstljnKFuv4kY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-7" value="前端使用Echarts进行数据渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vkHL2uqCstljnKFuv4kY-10" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="567" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
