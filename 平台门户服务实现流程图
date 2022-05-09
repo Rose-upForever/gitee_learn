@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T05:03:10.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="18.0.2" etag="451O2zlvaCK3lqy-FKM1" type="github"><diagram id="kIaEPOJVL2kIfgAV7S09">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T05:14:08.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="5T5sdw-LW5w_MjTnH-P9" version="18.0.2" type="github">
+  <diagram id="kIaEPOJVL2kIfgAV7S09" name="Page-1">
+    <mxGraphModel dx="1721" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-1" target="3usrE4a3TUWgv0lPYt-j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-3" target="3usrE4a3TUWgv0lPYt-j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-3" value="用户登入首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="139" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-4" target="3usrE4a3TUWgv0lPYt-j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-4" target="3usrE4a3TUWgv0lPYt-j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-4" value="查询Redis中是否有缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="230" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-9" target="3usrE4a3TUWgv0lPYt-j-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="153" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-9" value="取出Redis缓存中的数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="426" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-11" target="3usrE4a3TUWgv0lPYt-j-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-11" value="查询MySQL数据库并取出数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-13" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="248" y="249" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-14" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368" y="339" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-15" target="3usrE4a3TUWgv0lPYt-j-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-15" value="将数据放入Redis缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="467" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3usrE4a3TUWgv0lPYt-j-17" target="3usrE4a3TUWgv0lPYt-j-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-17" value="返回数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="574" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3usrE4a3TUWgv0lPYt-j-22" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="675" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
