@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T06:31:55.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="18.0.2" etag="GWRB0u-lvejODNIqWPbj" type="github"><diagram id="iSK0jgxz7bwYHDuxv6eN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-09T06:39:59.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="1iGPPitQKb8Llq3VRlaF" version="18.0.2" type="github">
+  <diagram id="iSK0jgxz7bwYHDuxv6eN" name="Page-1">
+    <mxGraphModel dx="1205" dy="621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wkHOcoFD6s1DMO870zNx-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="38" width="110" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-2" target="wkHOcoFD6s1DMO870zNx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-2" value="用户选择付费课程并下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="124" width="110" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-3" target="wkHOcoFD6s1DMO870zNx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-3" value="微服务后台封装数据提交到微信服务端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="219" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-5" target="wkHOcoFD6s1DMO870zNx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-5" value="微信服务端返回订单数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="294" y="321" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-7" target="wkHOcoFD6s1DMO870zNx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-7" value="前端生成支付二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="413" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-9" target="wkHOcoFD6s1DMO870zNx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-9" target="wkHOcoFD6s1DMO870zNx-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="492" y="543.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="461" y="546" />
+              <mxPoint x="461" y="829" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-9" value="用户是否支付？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="502" width="118" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-11" target="wkHOcoFD6s1DMO870zNx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-11" target="wkHOcoFD6s1DMO870zNx-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="645.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="646" />
+              <mxPoint x="230" y="829" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-11" value="支付是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="614" width="114" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-13" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="357" y="591" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wkHOcoFD6s1DMO870zNx-14" target="wkHOcoFD6s1DMO870zNx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-14" value="修改订单状态并跳转到课程详情页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-16" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="802" width="112" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-20" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208" y="700" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-21" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="366" y="681" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="wkHOcoFD6s1DMO870zNx-24" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="437" y="659" width="22" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
